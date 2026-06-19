@@ -1,0 +1,14 @@
+# Ignore Node modules
+node_modules/
+dist/
+.env
+
+# Ignore Python virtual environments and caches
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Ignore uploaded resumes folder tracking
+backend-gateway/uploads/*
+!backend-gateway/uploads/.gitkeep
